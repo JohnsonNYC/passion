@@ -25,22 +25,6 @@ const LoginForm = () => {
     window.location.href = targetUrl;
   };
 
-  useEffect(() => {
-    if (isLoggedIn) {
-      router.push("/secure");
-    }
-  }, [isLoggedIn]);
-
-  useEffect(() => {
-    // const accessTokenRegex = /access_token=([^&]+)/;
-    // const isMatch = window.location.href.match(accessTokenRegex);
-    // if (isMatch) {
-    //   const accessToken = isMatch[1];
-    //   Cookies.set("access_token", accessToken);
-    //   setIsLoggedin(true);
-    // }
-  }, []);
-
   return (
     <div className="ps-login-form">
       <button className="ps-login-form--btn" onClick={handleClick}>
