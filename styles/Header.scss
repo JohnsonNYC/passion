@@ -1,0 +1,12 @@
+@import "../styles/variables";
+@import "../styles/mixins";
+
+.ps-header {
+  padding: 1rem;
+  text-align: center;
+  @include space-between;
+
+  &__left {
+    border: 1px solid green;
+  }
+}

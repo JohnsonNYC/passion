@@ -1,0 +1,34 @@
+@import "../mixins";
+
+.ps-login {
+  @include center;
+  flex-direction: column;
+
+  .ps-login-form {
+    margin-top: 20px;
+  }
+}
+
+.ps-login-form {
+  @include center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 360px;
+
+  & > label {
+    align-self: start;
+  }
+
+  & > label,
+  input {
+    margin-bottom: 10px;
+  }
+
+  &--btn {
+    @include center;
+
+    & > svg {
+      margin-right: 10px;
+    }
+  }
+}

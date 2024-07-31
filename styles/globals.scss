@@ -1,0 +1,16 @@
+@import "./variables";
+@import "./mixins";
+@import "./reset";
+@import "./Header";
+@import "./Login/Login.scss";
+@import "./DesignSystem/Input.scss";
+@import "./DesignSystem//Button.scss";
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+}

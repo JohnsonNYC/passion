@@ -1,0 +1,42 @@
+@import "../variables";
+
+.ps-button {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  max-width: 100%;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 12px 12px 2px 1px rgba(153, 153, 156, 0.2);
+    transform: translate(-5px, 0);
+    transition: transform 200ms ease-in;
+  }
+
+  &-indigo-600 {
+    background: $c-sk-indigo-600;
+    border: 1px solid $c-sk-indigo-600;
+  }
+
+  &-indigo-500 {
+    background: $c-sk-indigo-500;
+    border: 1px solid $c-sk-indigo-500;
+  }
+  &-indigo-400 {
+    background: $c-sk-indigo-400;
+    border: 1px solid $c-sk-indigo-400;
+  }
+  &-indigo-300 {
+    background: $c-sk-indigo-300;
+    border: 1px solid $c-sk-indigo-300;
+  }
+  &-indigo-200 {
+    background: $c-sk-indigo-200;
+    border: 1px solid $c-sk-indigo-200;
+  }
+  &-indigo-100 {
+    background: $c-sk-indigo-100;
+    border: 1px solid $c-sk-indigo-100;
+  }
+}
